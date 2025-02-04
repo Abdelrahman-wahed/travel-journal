@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    background-color: #F55A5A;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header svg {
+    width: 20px;
+    height: 20px;
+}
+
+.header p {
+
+    margin: 0;
+    font-size: 25px;
+}
+
+.main {
+    margin: 50px 0;
+}
+
+.journy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 0 40px;
+    padding: 25px 0;
+
+}
+
+.journy:not(:last-child) {
+    border-bottom: 3px solid #F5F5F5;
+}
+
+.journy img {
+    width: 205px;
+    height: 294px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    position: relative;
+}
+
+.journy img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.journy .content {
+    flex: 1;
+    color: #2B283A;
+}
+
+.journy .content .text {
+    display: flex;
+
+    align-items: center;
+}
+
+.journy .content svg {
+    width: 24px;
+    height: 24px;
+    color: red;
+}
+
+.journy .content .country {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.journy .content .maps {
+    color: #918E9B;
+    font-size: 25px;
+}
+
+.journy .content .Landmark {
+
+    font-size: 40px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.journy .content .time {
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.journy .content .desc {
+    font-size: 20px;
+}
