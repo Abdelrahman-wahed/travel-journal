@@ -1,6 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-export default function Journy(props) {
+type JournyProps ={
+  [key:string]:any;
+}
+export default function Journy(props:JournyProps) {
   return (
     <div className="journy">
       <img src={props.img} alt={props.TouristLandmark} />
